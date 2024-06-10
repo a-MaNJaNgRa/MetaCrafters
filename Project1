@@ -13,20 +13,22 @@
 //Project1
 
 // Create an array to hold our NFTs
-let nftHolder = []; // Step 1: Create a variable to hold NFTs
+let nftHolder = []; 
+// Step 1: Create a variable to hold NFTs
 
 // Function to mint a new NFT
-function mintNFTs(name, color, description, image) {
+function mintNFTs(name, color, description, type) {
   // Create an object to hold the NFT metadata
   let nft = {
     name: name, // metadata property: name
     description: description, // metadata property: description
-    image: image, // metadata property: image
+    type: type, // metadata property: type of nft
     color : color //metadata property:age
   };
   // Add the new NFT to our collection
-  nftHolder.push(nft); // Step 2: Store the NFT in the variable
+  nftHolder.push(nft); 
 }
+// Step 2: Store the NFT in the variable
 
 // Function to list all NFTs
 function listNFTs() {
@@ -36,7 +38,7 @@ function listNFTs() {
     console.log("Name: " + nftHolder[i].name);
     console.log("Color: " + nftHolder[i].color);
     console.log("Description: " + nftHolder[i].description);
-    console.log("Image: " + nftHolder[i].image);
+    console.log("Type: " + nftHolder[i].type);
     console.log("\n------------------------");
   } // Step 3: Print NFT metadata to the console
 }
@@ -48,13 +50,13 @@ function getTotalSupply() {
 }
  // Step 4: Return the total number of NFTs
 
-// Call our functions to mint some NFTs and list them
-mintNFTs("NFT 1", "Black", "This is NFT 1", "image1.png");
-mintNFTs("NFT 2", "Blue", "This is NFT 2", "image2.png");
-mintNFTs("NFT 3", "White", "This is NFT 3", "image3.png");
-mintNFTs("NFT 4", "Pink", "This is NFT 4", "image4.png");
-mintNFTs("NFT 5", "Red", "This is NFT 5", "image5.png");
-mintNFTs("NFT 6", "Purple", "This is NFT 6", "image6.png");
+// calling our functions to mint some NFTs and list them
+mintNFTs("NFT 1", "Black", "This is NFT 1", "Art Nft");
+mintNFTs("NFT 2", "Blue", "This is NFT 2", "Gaming Nft");
+mintNFTs("NFT 3", "White", "This is NFT 3", "Photography NFTs");
+mintNFTs("NFT 4", "Pink", "This is NFT 4", "Music NFTs");
+mintNFTs("NFT 5", "Red", "This is NFT 5", "Collectibles ");
+mintNFTs("NFT 6", "Purple", "This is NFT 6", "PFPs and Avatars");
 listNFTs();
 getTotalSupply();
-//Run this code and its ready!!
+//run this code and its ready!!
