@@ -1,14 +1,14 @@
 # MetaCrafters
 This repository contains all projects of metacrafters...
-Project 1 JS is uploaded
-Project 2 ETH Proof is uploaded 
+- Project 1 JS is uploaded
+- Project 2 ETH Proof is uploaded 
 - Working on next one
 
 My Token
-This solidity program demonstraties the creation ,minting and burning of a custom cryptocurrency token named"dragonball".The purpose of this program is to provide an introducion to creating and managing token on the ethereum blockchain.
+- This solidity program demonstraties the creation ,minting and burning of a custom cryptocurrency token named"dragonball".The purpose of this program is to provide an introducion to creating and managing token on the ethereum blockchain.
 
 Description
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract includes functionalities to manage token details, mint new tokens, and burn existing tokens. It serves as an introductory project for those new to Solidity and Ethereum development, providing a foundation for more complex token contracts.
+- This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract includes functionalities to manage token details, mint new tokens, and burn existing tokens. It serves as an introductory project for those new to Solidity and Ethereum development, providing a foundation for more complex token contracts.
 
 Getting Started
 Executing Program
